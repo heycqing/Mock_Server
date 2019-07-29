@@ -1,0 +1,20 @@
+{
+  "name": "mock_server",
+  "version": "1.0.0",
+  "description": "主要用于前端假数据描述，供给前端使用，不用依赖于后台[被公司的测试环境的数据给搞死]",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "mock": "node index.js"
+  },
+  "keywords": [
+    "前端假数据",
+    "cqing"
+  ],
+  "author": "cqing",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.3.3",
+    "mockjs": "^1.0.1-beta3"
+  }
+}

@@ -15,3 +15,5 @@
 - 采用 KoaJs 框架来替换原生的 http 服务
 - mockJs 会更健全
 - nodeJs 中间件会封装好。
+- 放置在 docker 容器里。
+- 最好能实现自动化。 

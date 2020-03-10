@@ -13,7 +13,6 @@ let App = new Koa();
 let router = new Router();
 
 // mock 路由
-let mng_router  = require('./mock.router/sdyx-open/mng/router.js')
 let test_router = require('./mock.router/test_router/mock_router.js')
 
 
@@ -30,7 +29,6 @@ App.use(cors({
 
 // 加载不同的路由
 App.use(router.routes())
-App.use(mng_router.routes())
 App.use(test_router.routes())
 
 App.listen(config.prot)

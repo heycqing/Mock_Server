@@ -14,5 +14,5 @@ yarn-error.log
 
 # 自建目录
 #
-./mock.data/sdyx-open/*.js
-./mock.router/sdyx-open/*.js
+mock.data/**/*.js
+mock.router/**/*.js

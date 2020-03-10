@@ -2,8 +2,7 @@ let Mock = require('mockjs')
 
 let Random = Mock.Random;
 
-exports.result = function () {
-    let data = Mock.mock({
+exports.result =  Mock.mock({
         // 这里进行配置
         'list|10-100': [{
             'code': 0,
@@ -27,8 +26,6 @@ exports.result = function () {
             "mag": "ok"
         }]
     })
-    return data
-}()
 
 
 
